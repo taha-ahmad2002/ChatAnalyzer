@@ -4,6 +4,11 @@ import helper
 import preprocessor
 import seaborn as sns
 
+st.set_page_config(
+    page_title="Chat Analyzer",
+    page_icon="💬",
+    layout="wide"
+)
 st.sidebar.text("Whatsapp Chat")
 
 uploaded_file=st.sidebar.file_uploader("Choose a file")
